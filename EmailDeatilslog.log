@@ -1,0 +1,53 @@
+2021-12-11 21:12:37.564  INFO 49580 --- [restartedMain] c.s.w.e.EmailVerficationApplication      : Starting EmailVerficationApplication using Java 15.0.2 on DESKTOP-7U94M6D with PID 49580 (C:\Aboltabol\Socure\emailVerfication\target\classes started by soura in C:\Aboltabol\Socure\emailVerfication)
+2021-12-11 21:12:37.564  INFO 49580 --- [restartedMain] c.s.w.e.EmailVerficationApplication      : No active profile set, falling back to default profiles: default
+2021-12-11 21:12:37.843  INFO 49580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-11 21:12:37.857  INFO 49580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interfaces.
+2021-12-11 21:12:38.000  INFO 49580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-11 21:12:38.001  INFO 49580 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-11 21:12:38.001  INFO 49580 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-11 21:12:38.051  INFO 49580 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-11 21:12:38.051  INFO 49580 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 483 ms
+2021-12-11 21:12:38.066  INFO 49580 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-12-11 21:12:38.068  INFO 49580 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-12-11 21:12:38.069  INFO 49580 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-12-11 21:12:38.095  INFO 49580 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-11 21:12:38.101  INFO 49580 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-12-11 21:12:38.132  INFO 49580 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-11 21:12:38.132  INFO 49580 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-11 21:12:38.227  WARN 49580 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-11 21:12:38.330  INFO 49580 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-11 21:12:38.342  INFO 49580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-11 21:12:38.345  INFO 49580 --- [restartedMain] c.s.w.e.EmailVerficationApplication      : Started EmailVerficationApplication in 0.848 seconds (JVM running for 432.449)
+2021-12-11 21:12:38.347  INFO 49580 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-11 21:12:46.996  INFO 49580 --- [Thread-8] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-11 21:12:46.997  INFO 49580 --- [Thread-8] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-12-11 21:12:47.208  WARN 49580 --- [Thread-8] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-12-11 21:12:47.209  INFO 49580 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-12-11 21:12:47.210  INFO 49580 --- [Thread-8] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2021-12-11 21:12:47.314  INFO 49580 --- [restartedMain] c.s.w.e.EmailVerficationApplication      : Starting EmailVerficationApplication using Java 15.0.2 on DESKTOP-7U94M6D with PID 49580 (C:\Aboltabol\Socure\emailVerfication\target\classes started by soura in C:\Aboltabol\Socure\emailVerfication)
+2021-12-11 21:12:47.314  INFO 49580 --- [restartedMain] c.s.w.e.EmailVerficationApplication      : No active profile set, falling back to default profiles: default
+2021-12-11 21:12:47.568  INFO 49580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-11 21:12:47.579  INFO 49580 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interfaces.
+2021-12-11 21:12:47.690  INFO 49580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-12-11 21:12:47.690  INFO 49580 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-11 21:12:47.690  INFO 49580 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-11 21:12:47.735  INFO 49580 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-11 21:12:47.735  INFO 49580 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 414 ms
+2021-12-11 21:12:47.746  INFO 49580 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2021-12-11 21:12:47.748  INFO 49580 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2021-12-11 21:12:47.748  INFO 49580 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-12-11 21:12:47.768  INFO 49580 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-11 21:12:47.775  INFO 49580 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-12-11 21:12:47.806  INFO 49580 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-11 21:12:47.806  INFO 49580 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-11 21:12:47.876  WARN 49580 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-11 21:12:47.956  INFO 49580 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-11 21:12:47.963  INFO 49580 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-11 21:12:47.966  INFO 49580 --- [restartedMain] c.s.w.e.EmailVerficationApplication      : Started EmailVerficationApplication in 0.694 seconds (JVM running for 442.071)
+2021-12-11 21:12:47.968  INFO 49580 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-11 21:13:42.605  INFO 49580 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-11 21:13:42.606  INFO 49580 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-11 21:13:42.607  INFO 49580 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-12-11 21:13:42.623  INFO 49580 --- [http-nio-8080-exec-2] c.s.w.e.EmailVerificationService         : Email mapping has been created successfully : EmailDetails [addr=sourav_narayan_kundu@gmail.com, code=1222643706, creationTime=1639286022612, noOfTimesVerified=0]
+2021-12-11 21:13:48.671  INFO 49580 --- [http-nio-8080-exec-3] c.s.w.e.EmailVerificationService         : Email mapping has been verified successfully : EmailDetails [addr=sourav_narayan_kundu@gmail.com, code=1222643706, creationTime=1639286022612, noOfTimesVerified=0]
+2021-12-11 21:45:56.067  WARN 49580 --- [HikariPool-3 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=8m7s783ms620µs700ns).
